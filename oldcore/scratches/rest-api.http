@@ -1,0 +1,73 @@
+
+POST http://localhost:8000/currency
+Accept: application/json
+
+{
+  "name": "BTC",
+  "decimal": 4
+}
+
+###
+
+POST http://localhost:8000/currency
+Accept: application/json
+
+{
+  "name": "USD",
+  "decimal": 2
+}
+
+<> 2021-01-15T232654.200.json
+<> 2021-01-15T232427.200.json
+
+###
+POST http://localhost:8000/pair
+Accept: application/json
+
+{
+  "currency1": "BTC",
+  "currency2": "USD"
+}
+
+###
+
+POST http://localhost:8000/order
+Accept: application/json
+
+{
+	"id":1,
+	"pairName":"BTC/USD",
+	"isGreen":false,
+	"currency1":1.9,
+	"currency2":65000.01
+}
+
+###
+
+POST http://localhost:8000/order
+Accept: application/json
+
+{
+	"id":2,
+	"pairName":"BTC/USD",
+	"isGreen":false,
+	"currency1":2.31,
+	"currency2":65000
+}
+
+###
+
+
+POST http://localhost:8000/order
+Accept: application/json
+
+{
+	"id":3,
+	"pairName":"BTC/USD",
+	"isGreen":true,
+	"currency1":0,
+	"currency2":100000.12
+}
+
+###
+

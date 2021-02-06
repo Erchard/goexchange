@@ -1,0 +1,81 @@
+[
+  {
+    "id": 6,
+    "time": 1612033565159241700,
+    "type": 0,
+    "order": {
+      "id": 4,
+      "pair": "BTC/USD",
+      "isGreen": false,
+      "price": 3421100000000,
+      "isMarketPrice": false,
+      "want": {
+        "currency": "USD",
+        "amount": 299998900
+      },
+      "supply": {
+        "currency": "BTC",
+        "amount": 8769
+      },
+      "received": {
+        "currency": "USD",
+        "amount": 350001200
+      },
+      "isClose": false
+    },
+    "swap": null
+  },
+  {
+    "id": 7,
+    "time": 1612033565159241700,
+    "type": 1,
+    "order": null,
+    "swap": {
+      "green": {
+        "id": 3,
+        "pair": "BTC/USD",
+        "isGreen": true,
+        "price": 18446744073709551615,
+        "isMarketPrice": true,
+        "want": {
+          "currency": "BTC",
+          "amount": 0
+        },
+        "supply": {
+          "currency": "USD",
+          "amount": 0
+        },
+        "received": {
+          "currency": "BTC",
+          "amount": 33331
+        },
+        "isClose": true
+      },
+      "red": {
+        "id": 4,
+        "pair": "BTC/USD",
+        "isGreen": false,
+        "price": 3421100000000,
+        "isMarketPrice": false,
+        "want": {
+          "currency": "USD",
+          "amount": 299998900
+        },
+        "supply": {
+          "currency": "BTC",
+          "amount": 8769
+        },
+        "received": {
+          "currency": "USD",
+          "amount": 350001200
+        },
+        "isClose": false
+      },
+      "price": 3421100000000,
+      "money1": 10231,
+      "money2": 350001200,
+      "remainder1": 0,
+      "remainder2": 0
+    }
+  }
+]
